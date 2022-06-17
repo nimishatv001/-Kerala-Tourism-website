@@ -1,0 +1,72 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url("/img/loginnn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+
+.Signup-box {
+    width:500px;
+    height:800px;
+    background:rgba(0, 0, 0, 0.5);
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-top: 80px;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 50px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+input[type="button"] {
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+}
+
+p{
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
